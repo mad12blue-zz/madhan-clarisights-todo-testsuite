@@ -1,0 +1,1 @@
+export const PAGE_URL = 'http://todomvc.com/examples/typescript-react/#/';
