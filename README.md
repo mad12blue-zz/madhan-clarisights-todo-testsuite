@@ -3,9 +3,9 @@ Running the test suite:
 --------------------------------------------------------------------------------------------
 Pre-condition: make sure the appication under test is up and running in the localhost
 
-1. git clone https://github.com/mad12blue/madhan-clarisights-todo-testsuite
+1. git clone https://github.com/mad12blue/Relayr_GoogleSearch_UITestSuite.git
 
-2. navigate to the 'madhan-clarisights-todo-testsuite' folder 
+2. navigate to the 'Relayr_GoogleSearch_UITestSuite' folder 
 
 3. npm install
 
@@ -20,11 +20,11 @@ Pre-condition: make sure the appication under test is up and running in the loca
 - npm run cypress:run (Cypress test runner opens up and tests are executed automatically, progress and results can be seen in the terminal)
 
 4(c). To run the test in non-gui mode (headless) along with html report generation
-- npm run cypress:run:report (Cypress test runner opens up and tests are executed automatically, progress and results can be seen in the terminal. Once test suite execution is complete, html report for the current run can be found in 'madhan-clarisights-todo-testsuite > mochawesome-report > TestReport_<currentDateTime>.html')
+- npm run cypress:run:report (Cypress test runner opens up and tests are executed automatically, progress and results can be seen in the terminal. Once test suite execution is complete, html report for the current run can be found in 'Relayr_GoogleSearch_UITestSuite > mochawesome-report > TestReport_<currentDateTime>.html')
 
 --------------------------------------------------------------------------------------------
 Additional Info:
 --------------------------------------------------------------------------------------------
-* Cucumber test can be found in 'madhan-clarisights-todo-testsuite > cypress > support > Budget.feature' file
-* html report for the current run can be found in 'madhan-clarisights-todo-testsuite > mochawesome-report > TestReport_<currentDateTime>.html' file
-* Page Object Model pattern is followed, Selectors and Utility methods can be found in 'madhan-clarisights-todo-testsuite > cypress > support > utilities' folder
+* Cucumber test can be found in 'Relayr_GoogleSearch_UITestSuite > cypress > support > Budget.feature' file
+* html report for the current run can be found in 'Relayr_GoogleSearch_UITestSuite > mochawesome-report > TestReport_<currentDateTime>.html' file
+* Page Object Model pattern is followed, Selectors and Utility methods can be found in 'Relayr_GoogleSearch_UITestSuite > cypress > support > utilities' folder
